@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPF_Dataviewer.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Dataviewer"
+        mc:Ignorable="d"
+        Title="Help" Height="167.324" Width="370.282">
+    <Grid>
+        <TextBlock Margin="10,10,10,44" TextWrapping="Wrap"><Run Text="Select monsters from the menu and click detail. Type in the search bar to filter results by name. Use the Delete Selected button to delete monsters. Filter and sort results with the DEC and ASC buttons."/></TextBlock>
+        <Button Content="Close" Margin="257,97,10,10" Click="Button_Click"/>
+
+    </Grid>
+</Window>
